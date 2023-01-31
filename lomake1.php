@@ -2,7 +2,7 @@
 
 	session_start();
 
-	$y_tiedot = "dbname=ccjami user=ccjami password=s9n9tpGL3qEnReh";
+	$y_tiedot = "dbname=ccjami user=ccjami password=password_hidden";
 
 	if (!$yhteys = pg_connect($y_tiedot))
 	   die("Tietokantayhteyden luominen epäonnistui.");
